@@ -1,0 +1,104 @@
+:root {
+    --primary-color: #4550AA;
+    --primary-bg: #0B0E80;
+    --secondary-bg: #a7aff1;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+  
+.containerX {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #FAFAFA;
+}
+  
+.card-section .card {
+    background: linear-gradient(135deg, #0d0d3d, #1a1a6f);
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.bg{
+    background: #EFEFFF;
+    border-radius: 10px;
+    padding: 15px 25px 0px 25px;
+}
+  
+.primary-color{
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+.price {
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+.activate-btn {
+    background-color: var(--primary-bg);
+    color: #fff;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.features input{
+    border-radius: 20px;
+}
+
+.features input::placeholder{
+    padding: 10px;
+}
+
+.activate-btn2 {
+    background-color: #EFEFFF;
+    color: var(--primary-color);
+    text-align: center;
+    font-weight: bold;
+    border: none;
+    padding: 8px 20px 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.wallet-table {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+}
+  
+.wallet-table td {
+    padding: 15px;
+}
+  
+.wallet-table h5, 
+.wallet-table h6, 
+.wallet-table p {
+    margin: 0;
+}
+  
+.wallet-section svg{
+    fill: var(--primary-color);
+}
+  
+.activate-section .activate-card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+  
+  
